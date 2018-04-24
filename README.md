@@ -44,7 +44,7 @@ python plot.py
 Python 2.7  
 Keras 2.2.1  
 Tensorflow 1.7.0  
-Scikit-learn 0.18.1
+Scikit-learn 0.18.1  
 Numpy 1.14.2  
-Scipy 1.0.1
+Scipy 1.0.1  
 Plotly 2.5.1
