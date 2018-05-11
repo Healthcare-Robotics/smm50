@@ -1,4 +1,4 @@
-import os, sys, time, argparse, random
+import os, sys, time, argparse, random, glob
 import numpy as np
 import tensorflow as tf
 os.environ['KERAS_BACKEND'] = 'tensorflow'
@@ -155,6 +155,12 @@ if __name__ == '__main__':
 
     epochs = 150
     batchSize = 64
+
+    # Check that the datasets have been downloaded
+    luminiFilenames = glob.glob(os.path.join('data', 'lumini*'))
+    scioFilenames = glob.glob(os.path.join('data', 'scio*'))
+    if not luminiFilenames and not scioFilenames:
+        raise Exception('The SMM50 dataset must be downloaded before running this script.\nThis can be done using the command: \'wget -O smm50.tar.gz https://goo.gl/2X276V\'\nSee the following webpage for more details on downloading the SMM50 dataset: https://github.com/Healthcare-Robotics/smm50')
 
     t = time.time()
     if '0' in args.test:
