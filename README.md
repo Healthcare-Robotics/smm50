@@ -1,8 +1,8 @@
 # Classification of Household Materials via Spectroscopy
 
-Z. Erickson, N. Luskey, S. Chernova, and C. C. Kemp, "Classification of Household Materials via Spectroscopy", arXiv, 2018.
+Z. Erickson, N. Luskey, S. Chernova, and C. C. Kemp, ["Classification of Household Materials via Spectroscopy"](https://arxiv.org/abs/1805.04051), arXiv, 2018.
 
-Project webpage: http://healthcare-robotics.com/smm50
+Project webpage: [http://healthcare-robotics.com/smm50](http://healthcare-robotics.com/smm50)
 
 ## Download the SMM50 dataset
 SMM50 dataset (170 MB): https://goo.gl/2X276V  
@@ -47,4 +47,5 @@ Tensorflow 1.7.0
 Scikit-learn 0.18.1  
 Numpy 1.14.2  
 Scipy 1.0.1  
-Plotly 2.5.1
+Plotly 2.5.1  
+Seaborn 0.8.1
