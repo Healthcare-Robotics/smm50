@@ -5,6 +5,9 @@ __pycache__/
 
 *.pkl
 *.html
+*.csv
+*.gz
+.DS_Store
 
 # C extensions
 *.so
