@@ -11,7 +11,7 @@ Dataset details can be found on the [project webpage](https://pwp.gatech.edu/hrl
 Use the following commands to download and extract the SMM50 dataset.
 ```bash
 cd data
-wget -O smm50.tar.gz https://goo.gl/2X276V
+wget -O smm50.tar.gz https://goo.gl/Xjh6x4
 tar -xvzf smm50.tar.gz
 rm smm50.tar.gz
 ```
